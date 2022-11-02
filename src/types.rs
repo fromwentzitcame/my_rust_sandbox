@@ -11,7 +11,6 @@ Arrays
 // Rust is a statically typed language, which means that it must know the types of all variables at compile time. However, the compiler can usually infer what type we want to use based on the value and how we use it.
 
 pub fn run() {
-
     // default is "i32"
     let x = 1;
 
@@ -36,5 +35,4 @@ pub fn run() {
     let face = '\u{1F600}';
 
     println!("{:?}", (x, y, z, is_active, is_greater, a1, face));
-
 }

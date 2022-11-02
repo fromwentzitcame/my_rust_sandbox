@@ -38,8 +38,12 @@ pub fn run() {
     s.push('a');
     s.push('b');
 
-    println!("{}", s);
+    // Assertion testing
+    // 1st ex tests to see if s is of length 2. If true, nothing happens. If false, throws error
+    assert_eq!(2, s.len());
+    assert_eq!(11, s.capacity());
 
+    println!("{}", s);
 
     // println!("{}", hello);
 }
